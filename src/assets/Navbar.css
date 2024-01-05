@@ -1,0 +1,27 @@
+.navbarnya
+{
+    position: fixed !important;
+    width: 100vw;
+    transition: all 0.5s;
+    z-index: 99;
+}
+
+.Navbar11
+{
+    /* filter: blur(10px)!important; */
+    /* box-shadow: 0 3px rgba(247, 222, 255, 0.587)!important; */
+    background-color: rgba(148, 70, 212, 0.5) !important;
+}
+
+.navbar-link
+{
+    color: rgb(255, 255, 255)!important;
+    transition: all 0.5s;
+}
+
+.navbar-link:hover
+{
+    color: #ae00ff !important;    
+}
+
+

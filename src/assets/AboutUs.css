@@ -1,0 +1,89 @@
+* {
+    font-family: 'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0c0c1d;
+}
+
+.wrap .text {
+    color: salmon;
+}
+
+.wrap .text-2 {
+    color: green;
+}
+
+.wrap .text-2 span {
+    color: salmon;
+}
+
+.text-murid
+{
+    color: #c766ff !important;
+}
+
+.align-text
+{
+    text-align: justify !important;
+}
+
+.containerrrr {
+    padding-top: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn-dua {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #e189fc7c;
+    outline: none;
+    color: #fff;
+    transition: 1s ease-in-out;
+  }
+
+  .sub-judul {
+     color: #c766ff ;
+  }
+  
+  .svgg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn-dua:hover {
+    transition: 1s ease-in-out;
+    background: #7419c97a;
+  }
+  
+  .btn-dua:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

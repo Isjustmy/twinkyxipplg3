@@ -1,0 +1,156 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* h1 {
+  color: salmon;
+  padding: 20px ;
+
+} */
+
+.putih
+{
+  color: #fff !important;
+}
+
+.garis
+{
+  border: #ffffff solid 1px;
+  margin: 5px;
+  color: #fff;
+}
+
+.judul-sertif
+{
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+/* Card.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .card { 
+    width: calc(50% - 10px); 
+    /* Kartu akan memenuhi setengah lebar container dengan jarak 20px */
+    /* Atur gaya lainnya untuk kartu sesuai kebutuhan Anda */
+  }
+  /* Tambahan gaya lainnya sesuai kebutuhan */
+  
+  .card-container .card {
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background-color: white;
+  }
+
+  .card-container .card p {
+    font-size: 15px;
+    color: black;
+  }
+
+  .card-container .card h2 {
+    color: black;
+  }
+
+  .card-container .card:hover h2:hover {
+    border-bottom: 2px solid salmon;
+    width: 230px;
+   }
+
+  .card-container .card i {
+    color: black;
+    display: flex;
+  }
+
+  .bn5 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  body {
+    background-color: #7a00ff;
+  }
